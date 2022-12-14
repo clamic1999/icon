@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    background-color: lightpink;
+}
+.navlinks {
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    padding-left: 90px;
+    padding-right: 90px;
+    list-style-type: none;
+    display: inline-flex;    
+   
+}
+.lap i{
+    border-radius: 2px;
+    justify-content: space-evenly;
+    width: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+    
+}
+
+
+
